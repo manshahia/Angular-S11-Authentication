@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  //Inject AuthService in order to call logout() of this service from Home.html
   constructor(private authService: AuthService) { }
 }
